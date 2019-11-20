@@ -1,0 +1,73 @@
+ <mjml>
+   <mj-head>
+     <mj-font name="Raleway" href="https://fonts.googleapis.com/css?family=Raleway" />
+   </mj-head>
+   <mj-body background-color="efefef">
+
+      <mj-section>
+        <mj-column>
+          <mj-divider />
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="white">
+        <mj-column>
+          <mj-text font-family="Raleway, Arial" font-size="30px" line-height="40px" align="center">
+            A new submission arrived from the contact form on the RJWatches website!
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="white">
+        <mj-column>
+          <mj-text font-family="Raleway, Arial" font-size="20px" line-height="20px" align="center" color="red">
+            WARNING!
+          </mj-text>
+          <mj-text font-family="Raleway, Arial" font-size="14px" line-height="18px" align="center" color="red">
+            This email and any files transmitted with it are confidential and intended solely for the use of the individual or entity to whom they are addressed.
+            If you have received this email in error please notify the system manager.
+            This message contains confidential information and is intended only for the individual named.
+            If you are not the named addressee you should not disseminate, distribute or copy this e-mail.
+            Please notify the sender immediately by e-mail if you have received this e-mail by mistake and delete this e-mail from your system.
+            If you are not the intended recipient you are notified that disclosing, copying, distributing or taking any action in reliance on the contents of this information is strictly prohibited.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="white">
+        <mj-column>
+          <mj-table>
+            <tr>
+              <td style="padding: 0 15px 0 0;">Title</td>
+              <td style="padding: 0 15px;">%TITLE</td>
+            </tr>
+            <tr>
+              <td style="padding: 0 15px 0 0;">First name</td>
+              <td style="padding: 0 15px;">%FIRST_NAME</td>
+            </tr>
+            <tr>
+              <td style="padding: 0 15px 0 0;">Last name</td>
+              <td style="padding: 0 15px;">%LAST_NAME</td>
+            </tr>
+            <tr>
+              <td style="padding: 0 15px 0 0;">Country</td>
+              <td style="padding: 0 15px;">%COUNTRY</td>
+            </tr>
+            <tr>
+              <td style="padding: 0 15px 0 0;">E-mail</td>
+              <td style="padding: 0 15px;">%EMAIL</td>
+            </tr>
+            <tr>
+              <td style="padding: 0 15px 0 0;">Phone</td>
+              <td style="padding: 0 15px;">%PHONE</td>
+            </tr>
+            <tr>
+              <td style="padding: 0 15px 0 0;">Message</td>
+              <td style="padding: 0 15px;">%MESSAGE</td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
+   </mj-body>
+ </mjml>

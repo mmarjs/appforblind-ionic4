@@ -1,0 +1,29 @@
+
+<ion-header>
+  <ion-toolbar>
+    <ion-title #pageTitle>
+      {{ 'SEARCH.title' | translate }}
+    </ion-title>
+    <ion-buttons slot="primary">
+      <app-menu></app-menu>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item-divider>
+      <ion-label color="primary">
+        {{ 'SEARCH.result' | translate }}
+      </ion-label>
+    </ion-item-divider>
+    <ion-card *ngFor="let video of videos" [routerLink]="['/video/', video._id]">
+      <ion-card-header>
+        <ion-card-title [innerHtml]="video.title"></ion-card-title>
+      </ion-card-header>
+    
+      <ion-card-content [innerHtml]="video.description">
+      </ion-card-content>
+    </ion-card>
+  </ion-list>
+</ion-content>

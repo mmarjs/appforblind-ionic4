@@ -1,0 +1,80 @@
+{
+  "APP": {
+    "title": "Videó a vakoknak"
+  },
+  "HOME": {
+    "title": "Video for blind"
+  },
+  "VIDEO_PAGE": {
+    "title": "Videó oldal",
+    "meta_summary": "Ebben a videóban {{ characters }} karakter, {{ locations }} helyszín és {{ scenes }} jelenet van.",
+    "characters": "Karekterek",
+    "locations": "Helyszínek",
+    "scenes": "Jelenetek",
+    "see_video": "Videó megtekintése",
+    "see_characters": "Karakterek megtekintése",
+    "see_locations": "Helyszínek megtekintése",
+    "see_scenes": "Jelenetek megtekintése",
+    "autoplay": "Narráció automatikus lejátszása"
+  },
+  "AUTOPLAY_PAGE": {
+    "title": "Automatikus lejátszás",
+    "description": "Az automatikus lejátszás funkció először leírja, majd lejátsza a jelenetet",
+    "start_playback": "Lejátszás indítása",
+    "play_scene": "Jelenet lejátszása"
+  }, 
+  "LANGUAGE": {
+    "not_found": "Nem találod a saját nyelved?",
+    "not_found_more": "Folyamatosan önkénteseket keresünk, akik segítenek lefordítani ezt az alkalmazást további nyelvekre. Célunk, hogy ez az alkalmazás elérhető legyen szerte a világon, a lehető legtöbb nyelven!"
+  },
+  "MENU": {
+    "main": "Főoldal",
+    "label": "Menü",
+    "title": "Főmenü",
+    "language": "Nyelvválasztás",
+    "about": "A platform ismertetése",
+    "search_video": "Videó keresése",
+    "search_video_by_url": "Videó keresése URL alapján",
+    "search_video_by_title": "Videó keresése cím alapján",
+    "see_latest_videos": "Legfrissebb videók",
+    "login": "Belépés a platformra",
+    "get_help": "Segítség kérése",
+    "open_menu": "Menü megnyitása",
+    "close_menu": "Menü bezárása",
+    "back": "Vissza"
+  },
+  "LATEST_VIDEOS": {
+    "title": "A legújabb videók",
+    "language": "Nyelv"
+  },
+  "VIDEO_SEARCH": {
+    "welcome": "Üdvözlünk a Video For Blind alkalmazásban!",
+    "title": "Videó keresése",
+    "lead": "Írj be egy videó címet, vagy illessz be egy YouTube URL-t, majd kattints a keresés indítása gombra. A kereső mező alatt megtalálod az utolsó videókat.",
+    "label": "Video cím vagy URL",
+    "submit": "Keresés indítása"
+  },
+  "LOGIN": {
+    "title": "Belépés",
+    "soon_text": "Jelenleg még nem lehetséges belépni, a Google és Facebook belépési módok fejlesztés alatt állnak",
+    "login_facebook": "Login with facebook [HU]",
+    "login_gmail": "Login with gmail [HU]"
+  },
+  "LOGOUT": {
+    "title": "Logout [HU]"
+  },
+  "ABOUT": {
+    "about_text": "A Video For Blind platform eltökélt célja, hogy segítsen vak embereknek videók megtekintéségben. További leírás hamarosan."
+  },
+  "SEARCH": {
+    "title": "Search [HU]",
+    "result": "Search results [HU]",
+    "video_not_found": "Video not found [HU]",
+    "not_found": "Not found [HU]",
+    "request": "Do you want to request a narration for this video? [HU]",
+    "cancel": "Cancel [HU]",
+    "create": "Create [HU]",
+    "request_created": "Request created [HU]",
+    "login_for_request": "Please, login for request a narration [HU]"
+  }
+}

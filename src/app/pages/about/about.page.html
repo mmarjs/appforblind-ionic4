@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title #pageTitle>{{ 'MENU.about' | translate }}</ion-title>
+    <ion-buttons slot="primary">
+      <app-menu></app-menu>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-item>
+      <ion-icon name="information-circle-outline" slot="start"></ion-icon>
+      <ion-label>{{ 'APP.title' | translate }}</ion-label>
+    </ion-item>
+    <ion-card-content>
+      {{ 'ABOUT.about_text' | translate }}
+    </ion-card-content>
+  </ion-card>
+</ion-content>

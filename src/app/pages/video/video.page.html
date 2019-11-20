@@ -1,0 +1,87 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{ 'APP.title' | translate }} - {{ 'VIDEO_PAGE.title' | translate }}</ion-title>
+    <ion-buttons slot="primary">
+      <app-menu></app-menu>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title #pageTitle tabindex="0">Video title: {{ video.title }}</ion-card-title>
+      <ion-card-subtitle *ngIf="narration">Video summary: {{ 'VIDEO_PAGE.meta_summary' | translate : { characters: narration.characters.length, locations: narration.locations.length, scenes: narration.scenes.length } }}</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content *ngIf="narration">
+      <div *ngIf="video.description">
+          Video description: {{ video.description }}
+      </div>
+      
+      <ion-button expand="block" (click)="seeCharacters()">{{ 'VIDEO_PAGE.see_characters' | translate }}</ion-button>
+ 
+      <div *ngIf="showCharacters">
+        <ion-item-divider>
+          <ion-label color="primary" tabindex="0" #characters>
+            <b>{{ 'VIDEO_PAGE.characters' | translate }} ({{  narration.characters.length }})</b>
+          </ion-label>
+        </ion-item-divider>
+  
+        <div padding>
+          <ion-text *ngFor="let character of narration.characters" text-wrap>
+            <b>Character: {{ character.name }}</b>
+            <br>
+            <p>{{ character.description }}</p>
+            <br>
+          </ion-text>
+        </div>
+      </div>
+
+      <ion-button expand="block" (click)="seeLocations()">{{ 'VIDEO_PAGE.see_locations' | translate }}</ion-button>
+
+      <div *ngIf="showLocations">
+        <ion-item-divider>
+          <ion-label color="primary" tabindex="0" #locations>
+            <b>{{ 'VIDEO_PAGE.locations' | translate }} ({{  narration.locations.length }})</b>
+          </ion-label>
+        </ion-item-divider>
+  
+        <div padding>
+          <ion-text *ngFor="let location of narration.locations" text-wrap>
+            <b>Location: {{ location.name }}</b>
+            <br>
+            <p>{{ location.description }}</p>
+            <br>
+          </ion-text>
+        </div>
+      </div>
+
+      <ion-button expand="block" (click)="seeScenes()">{{ 'VIDEO_PAGE.see_scenes' | translate }}</ion-button>
+
+      <div *ngIf="showScenes">
+        <ion-item-divider>
+          <ion-label color="primary" tabindex="0" #scenes>
+            <b>{{ 'VIDEO_PAGE.scenes' | translate }} ({{  narration.scenes.length }})</b>
+          </ion-label>
+        </ion-item-divider>
+  
+        <div padding>
+          <ion-text *ngFor="let scene of narration.scenes" text-wrap>
+            <b>Scene: {{ scene.name }}</b>
+            <br>
+            <p>{{ scene.description }}</p>
+            <br>
+          </ion-text>
+        </div>
+      </div>
+
+      <ion-button expand="block" (click)="startVideo()">{{ 'VIDEO_PAGE.see_video' | translate }}</ion-button>
+
+      <div *ngIf="showVideo" id="video"></div>
+
+      <ion-button expand="block" (click)="startAutoplay()">{{ 'VIDEO_PAGE.autoplay' | translate }}</ion-button>
+
+   </ion-card-content>
+  </ion-card>
+</ion-content>

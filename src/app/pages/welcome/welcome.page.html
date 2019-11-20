@@ -1,0 +1,28 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-title #pageTitle>
+        {{ 'HOME.title' | translate }}
+      </ion-title>
+      <ion-buttons slot="primary">
+        <app-menu></app-menu>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+    <ion-card>
+      <ion-card-content #welcomeText tabindex="0">
+        <p *ngIf="userName">
+          Hello, {{userName}}!
+        </p>
+        <div>
+          {{ 'VIDEO_SEARCH.welcome' | translate }}
+        </div>
+        <div>
+          {{ 'VIDEO_SEARCH.lead' | translate }}
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <app-video-search></app-video-search>
+    <app-latest-videos></app-latest-videos>
+  </ion-content>

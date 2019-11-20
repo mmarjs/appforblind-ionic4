@@ -1,0 +1,15 @@
+<ion-list>
+  <ion-item-divider>
+    <ion-label color="primary">
+      {{ 'LATEST_VIDEOS.title' | translate }}
+    </ion-label>
+  </ion-item-divider>
+  <ion-card *ngFor="let narration of narrations$ | async" [routerLink]="['/video/', narration.video._id]">
+    <ion-card-header>
+      <ion-card-title [innerHtml]="narration.video.title"></ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      {{ 'LATEST_VIDEOS.language' | translate }}: {{ narration.language }}
+    </ion-card-content>
+  </ion-card>
+</ion-list>

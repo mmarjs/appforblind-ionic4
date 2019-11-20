@@ -1,0 +1,80 @@
+{
+  "APP": {
+    "title": "Video Pentru Orbi"
+  },
+  "HOME": {
+    "title": "Video for blind"
+  },
+  "VIDEO_PAGE": {
+    "title": "Pagina Videoclipului",
+    "meta_summary": "Acest videoclip are {{ characters }} caractere, {{ locations }} locații și {{ scenes }} scene",
+    "characters": "Caractere",
+    "locations": "Locații",
+    "scenes": "Scene",
+    "see_video": "See video",
+    "see_characters": "See characters",
+    "see_locations": "See locations",
+    "see_scenes": "See scenes",
+    "autoplay": "Autoplay video description"
+  },
+  "AUTOPLAY_PAGE": {
+    "title": "Autoplay description",
+    "description": "The autoplay function shows the description and they plays the corresponsing scene",
+    "start_playback": "Start playback",
+    "play_scene": "Play scene"
+  },
+  "LANGUAGE": {
+    "not_found": "Limba ta nu există ?",
+    "not_found_more": "Noi căutam voluntari pentru a traduce platforma, astfel că aplicația să se răspândească peste tot în lume."
+  },
+  "MENU": {
+    "main": "Pagina Principală",
+    "label": "Meniu",
+    "title": "Meniu Principal",
+    "language": "Schimbă Limba",
+    "about": "Despre platformă",
+    "search_video": "Caută Video",
+    "search_video_by_url": "Caută video după adresa URL",
+    "search_video_by_title": "Caută video după titlu",
+    "see_latest_videos": "Vezi cele mai recente videoclipuri",
+    "login": "Loghează-te pe platformă",
+    "get_help": "Obține Ajutor",
+    "open_menu": "Deschide Meniu",
+    "close_menu": "Închide Meniu",
+    "back": "Înapoi"
+  },
+  "LATEST_VIDEOS": {
+    "title": "Cele mai recente videoclipuri",
+    "language": "Language"
+  },
+  "VIDEO_SEARCH": {
+    "welcome": "Welcome to the Video For Blind application!",
+    "title": "Caută Videoclipuri",
+    "lead": "Scrie numele videoclipului sau înserează adresa URL a videoclipului de pe YouTube, apoi apasă pe Începe pentru a căuta. De asemenea, sub această zonă de cautare poți găsi cele mai recente videoclipuri.",
+    "label": "Titlul sau adresa URL a videoclipului",
+    "submit": "Incepe căutarea"
+  },
+  "LOGIN": {
+    "title": "Loghează-te",
+    "soon_text": "Nu te poți loga la moment, lucrăm la implementarea logării prin Google și Facebook.",
+    "login_facebook": "Login with facebook [RO]",
+    "login_gmail": "Login with gmail [RO]"
+  },
+  "LOGOUT": {
+    "title": "Logout [RO]"
+  },
+  "ABOUT": {
+    "about_text": "Video Pentru Orbi este o platforma care are un scop bine definit, de a crea o nouă lume pentru persoanele oarbe, prin posibilitatea de a privi videoclipuri."
+  },
+  "SEARCH": {
+    "title": "Search [RO]",
+    "result": "Search results [RO]",
+    "video_not_found": "Video not found [RO]",
+    "not_found": "Not found [RO]",
+    "request": "Do you want to request a narration for this video? [RO]",
+    "cancel": "Cancel [RO]",
+    "create": "Create [RO]",
+    "request_created": "Request created [RO]",
+    "login_for_request": "Please, login for request a narration [RO]"
+  }
+}

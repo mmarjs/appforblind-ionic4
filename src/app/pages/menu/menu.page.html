@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{ 'MENU.title' | translate }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-button *ngFor="let menuItem of menuItems" fill="clear" expand="block" (click)="activateItem(menuItem)" #mainButton>
+    {{ menuItem.title | translate }}
+  </ion-button>
+  <ng-container *ngIf="subMenuVisible">
+    <ion-button *ngFor="let subItem of subMenuItems" expand="block" (click)="activateSubItem(subItem)" #submenuItem>
+      {{ subItem.title | translate }}
+    </ion-button>
+    <ion-button expand="block" (click)="closeSubMenu()" >
+      {{ 'MENU.back' | translate }}
+    </ion-button>
+  </ng-container>
+  <ion-button expand="block" (click)="closeMenu()">
+    {{ 'MENU.close_menu' | translate }}
+  </ion-button>
+</ion-content>

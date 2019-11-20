@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title #pageTitle>{{ 'LOGIN.title' | translate }}</ion-title>
+    <ion-buttons slot="primary">
+      <app-menu></app-menu>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-button expand="block" type="button" color="primary" (click)="socialLogin(socialLoginType.FACEBOOK)" translate="LOGIN.login_facebook"></ion-button>
+  <ion-button expand="block" type="button" color="danger"(click)="socialLogin(socialLoginType.GOOGLE)" translate="LOGIN.login_gmail"></ion-button>
+</ion-content>

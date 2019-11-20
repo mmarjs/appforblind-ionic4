@@ -1,0 +1,14 @@
+<ion-item-divider>
+  <ion-label color="primary">
+    <h2>{{ 'VIDEO_SEARCH.title' | translate }}</h2>
+  </ion-label>
+</ion-item-divider>
+<form [formGroup]="searchForm" (ngSubmit)="search()">
+  <ion-item>
+    <ion-label>{{ 'VIDEO_SEARCH.label' | translate }}</ion-label>
+    <ion-input type="text" formControlName="title"></ion-input>
+  </ion-item>
+  <div padding>
+    <ion-button expand="block" type="submit" [disabled]="!searchForm.valid">{{ 'VIDEO_SEARCH.submit' | translate }}</ion-button>
+  </div>  
+</form>

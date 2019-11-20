@@ -1,0 +1,80 @@
+{
+  "APP": {
+    "title": "Video for blind"
+  },
+  "HOME": {
+    "title": "Video for blind"
+  },
+  "VIDEO_PAGE": {
+    "title": "Video page",
+    "meta_summary": "This video has {{ characters }} characters, {{ locations }} locations and {{ scenes }} scenes",
+    "characters": "Characters",
+    "locations": "Locations",
+    "scenes": "Scenes",
+    "see_video": "See video",
+    "see_characters": "See characters",
+    "see_locations": "See locations",
+    "see_scenes": "See scenes",
+    "autoplay": "Autoplay video description"
+  },
+  "AUTOPLAY_PAGE": {
+    "title": "Autoplay description",
+    "description": "The autoplay function shows the description and they plays the corresponsing scene",
+    "start_playback": "Start playback",
+    "play_scene": "Play scene"
+  },
+  "LANGUAGE": {
+    "not_found": "Your language not listed?",
+    "not_found_more": "We are looking for volunteers to translate the platform, our goal is to spread this application all over the planet. Please contact us at feedback@videoforblind.com"
+  },
+  "MENU": {
+    "main": "Main page",
+    "label": "Menu",
+    "title": "Main menu",
+    "language": "Change language",
+    "about": "About the platform",
+    "search_video": "Search video",
+    "search_video_by_url": "Search video by URL",
+    "search_video_by_title": "Search video by title",
+    "see_latest_videos": "See latest videos",
+    "login": "Login to the platform",
+    "get_help": "Get help",
+    "open_menu": "Open menu",
+    "close_menu": "Close menu",
+    "back": "Back"
+  },
+  "LATEST_VIDEOS": {
+    "title": "Latest videos",
+    "language": "Language"
+  },
+  "VIDEO_SEARCH": {
+    "welcome": "Welcome to the Video For Blind application!",
+    "title": "Search videos",
+    "lead": "Type the name of the video, or paste a YouTube URL, then click on the start search button. You can see the latest videos as well below the search area.",
+    "label": "Video title or URL",
+    "submit": "Start search"
+  },
+  "LOGIN": {
+    "title": "Login",
+    "soon_text": "You cannot login at the moment, we are currently implementing Google and Facebook logins",
+    "login_facebook": "Login with facebook",
+    "login_gmail": "Login with gmail"
+  },
+  "LOGOUT": {
+    "title": "Logout"
+  },
+  "ABOUT": {
+    "about_text": "Video For Blind is a platform that has a clear goal, to open a new world for blind people by allowing them to watch videos. TBD."
+  },
+  "SEARCH": {
+    "title": "Search",
+    "result": "Search results",
+    "video_not_found": "Video not found",
+    "not_found": "Not found",
+    "request": "Do you want to request a narration for this video?",
+    "cancel": "Cancel",
+    "create": "Create",
+    "request_created": "Request created",
+    "login_for_request": "Please, login for request a narration"
+  }
+}
