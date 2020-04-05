@@ -352,6 +352,16 @@
     tslib "^1.9.0"
     ws "^7.0.0"
 
+"@ionic/lab@2.0.11":
+  version "2.0.11"
+  resolved "https://registry.yarnpkg.com/@ionic/lab/-/lab-2.0.11.tgz#45c27759ae4cae7d3626f5516a6571f36c99b173"
+  dependencies:
+    "@ionic/cli-framework" "2.1.7"
+    "@ionic/utils-fs" "2.0.7"
+    chalk "^2.3.0"
+    express "^4.16.2"
+    tslib "^1.9.0"
+
 "@ionic/storage@^2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@ionic/storage/-/storage-2.2.0.tgz#ac181991d3bfc8352a5400efb5e9faa5e76b5d4b"
@@ -721,8 +731,8 @@ acorn-dynamic-import@^4.0.0:
   resolved "https://registry.yarnpkg.com/acorn-dynamic-import/-/acorn-dynamic-import-4.0.0.tgz#482210140582a36b83c3e342e1cfebcaa9240948"
 
 acorn@^6.0.5:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.3.0.tgz#0087509119ffa4fc0a0041d1e93a417e68cb856e"
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.4.1.tgz#531e58ba3f51b9dacb9a6646ca4debf5b14ca474"
 
 adm-zip@^0.4.9:
   version "0.4.13"
