@@ -8,7 +8,7 @@
     "start:prod": "./node_modules/.bin/nodemon server.js --env=prod"
   },
   "dependencies": {
-    "aws-sdk": "^2.525.0",
+    "aws-sdk": "^2.814.0",
     "axios": "^0.16.2",
     "cors": "^2.8.5",
     "dotenv": "^8.1.0",
