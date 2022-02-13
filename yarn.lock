@@ -352,6 +352,16 @@
     tslib "^1.9.0"
     ws "^7.0.0"
 
+"@ionic/lab@2.0.11":
+  version "2.0.11"
+  resolved "https://registry.yarnpkg.com/@ionic/lab/-/lab-2.0.11.tgz#45c27759ae4cae7d3626f5516a6571f36c99b173"
+  dependencies:
+    "@ionic/cli-framework" "2.1.7"
+    "@ionic/utils-fs" "2.0.7"
+    chalk "^2.3.0"
+    express "^4.16.2"
+    tslib "^1.9.0"
+
 "@ionic/storage@^2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@ionic/storage/-/storage-2.2.0.tgz#ac181991d3bfc8352a5400efb5e9faa5e76b5d4b"
@@ -3114,10 +3124,8 @@ flush-write-stream@^1.0.0:
     readable-stream "^2.3.6"
 
 follow-redirects@^1.0.0:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.7.0.tgz#489ebc198dc0e7f64167bd23b03c4c19b5784c76"
-  dependencies:
-    debug "^3.2.6"
+  version "1.14.8"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.8.tgz#016996fb9a11a100566398b1c6839337d7bfa8fc"
 
 for-each@~0.3.3:
   version "0.3.3"
