@@ -352,6 +352,16 @@
     tslib "^1.9.0"
     ws "^7.0.0"
 
+"@ionic/lab@2.0.11":
+  version "2.0.11"
+  resolved "https://registry.yarnpkg.com/@ionic/lab/-/lab-2.0.11.tgz#45c27759ae4cae7d3626f5516a6571f36c99b173"
+  dependencies:
+    "@ionic/cli-framework" "2.1.7"
+    "@ionic/utils-fs" "2.0.7"
+    chalk "^2.3.0"
+    express "^4.16.2"
+    tslib "^1.9.0"
+
 "@ionic/storage@^2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@ionic/storage/-/storage-2.2.0.tgz#ac181991d3bfc8352a5400efb5e9faa5e76b5d4b"
@@ -6156,8 +6166,8 @@ qs@^6.6.0:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.9.0.tgz#d1297e2a049c53119cb49cca366adbbacc80b409"
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
 
 querystring-es3@^0.2.0:
   version "0.2.1"
